@@ -1,0 +1,972 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>AdLinkFly - Monetized URL Shortener</title>
+	
+	<meta name="description" content="Earn money by starting your own monetized link shortening service, just like adf.ly, ouo.io, linkshrink.net or shorte.st! Allow members to shorten links & earn money, and keep a share of the profit. AdLinkFly includes a complete publisher and advertiser system, campaigns, referrals, withdrawals, API, translation ready, PayPal, Payza, Skrill, Bitcoin, Webmoney, Money Wallet & Bank Transfer integration, reCAPTCHA integration and much more!">
+	<meta name="author" content="Mighty Scripts">
+	<meta name="copyright" content="Mighty Scripts">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-06-08T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-adlinkfly-monetized-url-shortener">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#system_requirements" title="System Requirements">System Requirements</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#how_to_upgrade" title="How To Upgrade">How To Upgrade</a></li>
+			<li><a href="#adlinkfly_get_started" title="AdLinkFly get started">AdLinkFly get started</a></li>
+			<li><a href="#ads_pricing_rates" title="Ads Pricing Rates">Ads Pricing Rates</a></li>
+			<li><a href="#campaigns" title="Campaigns">Campaigns</a></li>
+			<li><a href="#multi_domains" title="Multi Domains">Multi Domains</a></li>
+			<li><a href="#api_tools" title="API Tools">API Tools</a></li>
+			<li><a href="#payment_methods" title="Payment Methods">Payment Methods</a></li>
+			<li><a href="#withdraws" title="Withdraws">Withdraws</a></li>
+			<li><a href="#captcha" title="CAPTCHA">CAPTCHA</a></li>
+			<li><a href="#social_login_setup" title="Social Login Setup">Social Login Setup</a></li>
+			<li><a href="#translating_to_your_language" title="Translating to your language">Translating to your language</a></li>
+			<li><a href="#faq" title="FAQ">FAQ</a></li>
+			<li><a href="#need_hosting" title="Need Hosting">Need Hosting</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Mighty Scripts 2018<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>AdLinkFly - Monetized URL Shortener</h1>
+	
+	<div id="documenter_buttons">
+		<a href="https://codecanyon.net/cart/configure_before_adding/16887109?ref=MightyScripts" class="btn btn-primary btn-large">Buy Now</a> <a href="https://codecanyon.net/item/adlinkfly-monetized-url-shortener/16887109?ref=MightyScripts" class="btn btn-large">Details</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 07/04/2016</li>
+	<li>latest update: 06/08/2018</li>
+	<li>by: Mighty Scripts</li>
+	<li><a href="https://www.mightyscripts.com/">www.mightyscripts.com/</a></li>
+	<li>email: <a href="mailto:&#97;&#100;&#109;&#105;&#110;&#64;&#109;&#105;&#103;&#104;&#116;&#121;&#115;&#99;&#114;&#105;&#112;&#116;&#115;&#46;&#99;&#111;&#109;">&#97;&#100;&#109;&#105;&#110;&#64;&#109;&#105;&#103;&#104;&#116;&#121;&#115;&#99;&#114;&#105;&#112;&#116;&#115;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Earn money by starting your own monetized link shortening service, just like adf.ly, ouo.io, linkshrink.net or shorte.st! Allow members to shorten links & earn money, and keep a share of the profit. AdLinkFly includes a complete publisher and advertiser system, campaigns, referrals, withdrawals, API, translation ready, PayPal, Payza, Skrill, Bitcoin, Webmoney, Money Wallet & Bank Transfer integration, reCAPTCHA integration and much more!</p>
+	</section>
+	
+	<section id="system_requirements">
+	<div class="page-header"><h3>System Requirements</h3><hr class="notop"></div>
+<ul>
+	<li style="box-sizing: border-box;">
+		PHP&gt;= 5.6.0</li>
+	<li style="box-sizing: border-box;">
+		mod_rewrite module enabled</li>
+	<li style="box-sizing: border-box;">
+		pdo_mysql extension</li>
+	<li style="box-sizing: border-box;">
+		OpenSSL extension</li>
+	<li style="box-sizing: border-box;">
+		intl extension</li>
+	<li style="box-sizing: border-box;">
+		cURL extension with support for https&nbsp;protocol</li>
+	<li style="box-sizing: border-box;">
+		mbstring extension</li>
+	<li style="box-sizing: border-box;">
+		DOM extension</li>
+	<li style="box-sizing: border-box;">
+		BCMath&nbsp;extension</li>
+	<li style="box-sizing: border-box;">
+		MySQL 5.5.x or greater</li>
+</ul>
+<p style="box-sizing: border-box;">
+	Most of the above&nbsp;requirements are available on most web hosts.</p>
+</section>
+<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<ul>	<li>		Download the zipped package to your local computer from codecanyon and extract the ZIP file contents to a folder on your local computer.</li>
+	<li>		In the extracted folder you will find &lsquo;AdLinkFly.zip&rsquo; Extract this file and upload its content using an FTP client to access your host web server where you would like to install the script.</li>
+	<li>		Make sure that&nbsp;<strong>tmp</strong>, <strong>logs</strong> and <strong>config</strong> directories and its sub-directories are writeable.</li>
+	<li>		Open your website where you have uploaded the extracted content like http://www.mydomain.com/ sometimes you may get 404 error&nbsp;/install/index is not found, click here for the fix.</li>
+	<li>		You can see the below video for installation and overview of all features</li>
+</ul>
+<p>	<iframe allowfullscreen="" frameborder="0" height="480" scrolling="no" src="https://www.youtube.com/embed/_DayhpcMaVo?rel=0" width="853"></iframe></p>
+<ul>	<li>		The first screen is to check for server requirements as you can see on the below image</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_8.png" style="width: 589px; height: 301px; border-width: 1px; border-style: solid;"></p>
+<ul>	<li>		Step 1, add database credentials as you can see on the below image</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_3.png" style="width: 580px; height: 517px; border-width: 1px; border-style: solid;"></p>
+<ul>	<li>		Step 2, is to create tables and load initial data as you can see on the below image</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_6.png" style="width: 591px; height: 256px; border-width: 1px; border-style: solid;"></p>
+<ul>	<li>		Step 3, is to create the admin user as you can see on the below image</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_4.png" style="width: 574px; height: 518px; border-width: 1px; border-style: solid;"></p>
+<ul>	<li>		The last step is to inform you that the installation is successfully done :)</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_11.png" style="width: 573px; height: 218px; border-width: 1px; border-style: solid;"></p>
+<p>	&nbsp;</p>
+</section>
+<section id="how_to_upgrade">
+	<div class="page-header"><h3>How To Upgrade</h3><hr class="notop"></div>
+<ul>
+	<li style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;">
+		<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; border: 0px; text-align: initial;"><strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;"><span style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: medium; font-family: inherit; vertical-align: baseline; border: 0px; color: rgb(255, 0, 0);">Backup all&nbsp;<u style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; border: 0px;">files</u>&nbsp;and&nbsp;<u style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; border: 0px;">database</u>(Very Important)</span></strong></span></li>
+	<li style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;">
+		<div>
+			Download the latest version from here https://codecanyon.net/downloads</div>
+	</li>
+	<li style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;">
+		Upload ALL the new files and folders over the old files and folders.</li>
+	<li style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;">
+		<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; border: 0px; text-align: initial;">Open this URL&nbsp;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">http://<u style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">your-domain.com</u>/admin/upgrade</strong>&nbsp;then click on &rdquo;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Upgrade Database</strong>&rdquo; button, make sure to replace&nbsp;<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; border: 0px; text-align: initial;"><strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;"><u style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">your-domain.com</u></strong>&nbsp;with your actual domain name.</span></span></li>
+	<li style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;">
+		<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; border: 0px; text-align: initial;">That&rsquo;s it :)</span></li>
+</ul>
+</section>
+<section id="adlinkfly_get_started">
+	<div class="page-header"><h3>AdLinkFly get started</h3><hr class="notop"></div>
+<ol>
+	<li>
+		You need to decide the ads types you will use into your website like banner, interstitial and/or popups ads by navigating to <u>Admin Area &gt;&gt; Settings &gt;&gt; Links</u></li>
+	<li>
+		Add price rates for ads for each country by navigating to <u>Admin Area &gt;&gt; Ads &gt;&gt; Banner/interstitial/popups </u>make sure to set prices for all traffic sources. <a href="#ads_pricing_rates">Click here to learn more about ads</a>.</li>
+	<li>
+		<div>
+			Adding ads is divided into two sections:</div>
+		<ol>
+			<li>
+				<div>
+					<u><strong>Adding ads to the campaigns</strong></u>: Let say you will create a campaign for banner size 468x60 from there you will add the ad code for size 468x60 to create a campaign&nbsp;navigate to&nbsp;<u>Admin Area &gt;&gt;&nbsp;Campaigns &gt;&gt; Create Banner/Interstitial/Popups</u>&nbsp;Campaign from there you will be able to add your ads codes.<a href="#campaigns">&nbsp;click here to learn more about campaigns.</a></div>
+			</li>
+			<li>
+				<div>
+					<u><strong>Adding ads for the other places(728x90 and 336x280)</strong></u>: After adding the banner size 468x60 into your campaign and you wish to add more ads into the other places 728x90 and 336x280, then navigate <u>Admin Area &gt;&gt; Settings &gt;&gt; Admin Ads</u></div>
+			</li>
+		</ol>
+	</li>
+	<li>
+		<div>
+			Enable captcha to prevent any fake/spam traffic by navigating to <u>Admin Area &gt;&gt; Settings &gt;&gt; Captcha</u></div>
+	</li>
+	<li>
+		<div>
+			Start shorting your links</div>
+	</li>
+</ol>
+<div>
+	&nbsp;</div>
+</section>
+<section id="ads_pricing_rates">
+	<div class="page-header"><h3>Ads Pricing Rates</h3><hr class="notop"></div>
+<div>
+	- AdLinkFly has three ad types banner,&nbsp;interstitial(full-page) and popup. You need to decide the ads types you will use into your website by navigating to&nbsp;<u>Admin Area &gt;&gt; Settings &gt;&gt; Links</u>&nbsp;as you can see in the following image</div>
+<div>
+	<a href="assets/images/image_5.png" target="_blank"><img alt="" src="assets/images/image_5.png" style="width: 300px; height: 293px; border-width: 1px; border-style: solid;"></a></div>
+<div>
+	&nbsp;</div>
+<div>
+	- Now, you need to set prices for advertisers and publishers for each country for each enabled ad type, for example, let&#39;s add prices for banner ads by navigating to Admin Area &gt;&gt; Ads &gt;&gt; Banner there you will be asked to select traffic source&nbsp;to start adding the prices for. You should add prices for all traffic sources even though you will not use it.</div>
+<div>
+	&nbsp;</div>
+<div>
+	- For countries&nbsp;you want to support, you should set both the advertiser and publisher prices for and leave empty the prices for the country you don&#39;t want to support.</div>
+<div>
+	&nbsp;</div>
+<div>
+	- Kindly note that the prices you added are for the 1000&nbsp;views. let say you added $1 for the US&nbsp;for 1000 views then the price for one view equal to $1/1000 = $0.001</div>
+<div>
+	&nbsp;</div>
+<div class="alert alert-info">
+	You should set the advertiser price greater than the publisher prices because the site owner will earn the subtracting between the advertiser and publisher&nbsp;price</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="campaigns">
+	<div class="page-header"><h3>Campaigns</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Calculating earnings is done only via&nbsp;campaigns</li>
+	<li>
+		There are two types of campaigns:
+		<ul>
+			<li>
+				Non-default: means that the campaign will count earnings.</li>
+			<li>
+				Default:&nbsp;means that the campaign will NOT count earnings. Also, default campaigns&nbsp;will be displayed when there are no eligible non-default campaigns for the visitors.</li>
+		</ul>
+	</li>
+	<li>
+		Make sure to create at least one <strong>default</strong> campaign for all campaigns banner, interstitial&nbsp;and popup for all countries or for &quot;WorldWide Deal&quot; to prevent any errors for visitors that don&#39;t have eligable&nbsp;campaigns</li>
+	<li>
+		After creating&nbsp;campaigns you can&#39;t edit the advertiser price because this is the amount that already paid for campaign but you can edit the publisher price</li>
+</ul>
+<h3>
+	Manage&nbsp;Campaigns</h3>
+<p>
+	You can manage&nbsp;campaigns by navigating to <u>Admin area -&gt;&nbsp;Campaigns &gt;&gt; List</u> from there you will be able to see all&nbsp;campaigns and you will be able to pause, resume, cancel campaigns as you can see on the below images</p>
+<p>
+	<a href="assets/images/image_17.png" target="_blank"><img alt="" src="assets/images/image_17.png" style="width: 800px; height: 126px; border-width: 1px; border-style: solid;"></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="assets/images/image_12.png" target="_blank"><img alt="" src="assets/images/image_12.png" style="width: 800px; height: 375px; border-width: 1px; border-style: solid;"></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="assets/images/image_16.png" target="_blank"><img alt="" src="assets/images/image_16.png" style="width: 800px; height: 315px; border-width: 1px; border-style: solid;"></a></p>
+</section>
+<section id="multi_domains">
+	<div class="page-header"><h3>Multi Domains</h3><hr class="notop"></div>
+<p>
+	AdLinkFly allows&nbsp;you to user multiple domains when users shorten links.</p>
+<p>
+	All you need is to add the new domain as an alias/parked/cname domain to your main domain from your hosting control panel(Your hosting company can help you do this) then add the new domain to <u><strong>Admin Area &gt;&gt; Settings &gt;&gt; General &gt;&gt; Multi Domains</strong></u></p>
+<div class="alert alert-info">
+	Please Note: Domains should be separated by a comma, no spaces. Make sure to remove the &#39;http&#39; or &#39;https&#39; and the trailing slash (/) so your new domains should look like <strong>domian1.com,domain2.com,domain3.com</strong></div>
+<p>
+	If you want to set a different domain for the short links rather than the main domain, you can do this by navigating to Admin Area &gt;&gt; Settings &gt;&gt; General &gt;&gt;&nbsp;Default Short URL Domain also make sure to remove the &quot;http&quot; or &quot;https&quot; and the trailing slash (/)!. Example: domain.com</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="api_tools">
+	<div class="page-header"><h3>API Tools</h3><hr class="notop"></div>
+<h4 id="api_tools_using_quick_link_tool">Using Quick Link Tool</h4>
+<p>
+	Everyone can use the shortest way to shorten links with AdLinkFly.</p>
+<div>
+	Just copy the link below to address bar into your web browser, change last part to destination link and press ENTER. AdLinkFly will redirect you to your shortened link. Copy it wherever you want and get paid.</div>
+<pre class="prettyprint lang-plain linenums">
+http://www.yourdomain.com/st/?api=&lt;&lt;api_token_code&gt;&gt;&amp;url=yourdestinationlink.com</pre>
+<div>
+	Each member can find this information by navigating to member area &gt;&gt; Tools &gt;&gt;&nbsp;Quick Link as you can see on the below image</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" src="assets/images/image_13.png" style="width: 800px; height: 241px; border-width: 1px; border-style: solid;"></div>
+<div>
+	&nbsp;</div>
+<h4 id="api_tools_using_mass_shrinker_tool">Using Mass Shrinker Tool</h4>
+<p>
+	Each member can Enter up to 20 URLs (one per line) to be shrunk and added to your account. You can find this information by navigating to member area &gt;&gt; Tools &gt;&gt; Mass Shrinker&nbsp;as you can see on the below image</p>
+<div>
+	<img alt="" src="assets/images/image_1.png" style="width: 800px; height: 333px; border-width: 1px; border-style: solid;"></div>
+<h4 id="api_tools_using_developers_api">Using Developers API</h4>
+<div>
+	For developers, AdLinkFly prepared API which returns responses in JSON format.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Currently, there is one method which can be used to shorten links on behalf of your account.</div>
+<div>
+	&nbsp;</div>
+<div>
+	All you have to do is to send a GET request with your API token and URL Like the following:</div>
+<div>
+	&nbsp;</div>
+<pre class="prettyprint lang-plain linenums">
+http://www.yourdomain.com/api/?api=&lt;&lt;api_token&gt;&gt;&amp;url=yourdestinationlink.com</pre>
+<div>
+	&nbsp;</div>
+<div>
+	You will get a JSON response like the following</div>
+<pre class="prettyprint lang-plain linenums">
+{&quot;status&quot;:&quot;success&quot;,&quot;shortenedUrl&quot;:&quot;&quot;http://localhost/adlinkfly/xxxxx&quot;&quot;}</pre>
+<div>
+	As you can see on the below image</div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" src="assets/images/image_2.png" style="width: 800px; height: 343px; border-width: 1px; border-style: solid;"></div>
+</section>
+<section id="payment_methods">
+	<div class="page-header"><h3>Payment Methods</h3><hr class="notop"></div>
+<p>	&nbsp;</p>
+<h4 id="payment_methods_paypal_setup">PayPal Setup</h4>
+<p>	To enable PayPal as a payment and withdraw method, you need to navigate to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; PayPal Settings from there enable PayPal and add your PayPal email address you wish to receive payments on as you can see in the below image</p>
+<p>	<img alt="" src="assets/images/image_10.png" style="width: 550px; height: 156px; border-width: 1px; border-style: solid;"></p>
+<p>	For automatic approve successful payments into your website you will need to enable IPN into your business&nbsp;PayPal account by doing the following:</p>
+<ul>	<li>		Log into your PayPal account</li>
+	<li>		Go to Profile then &ldquo;My Selling Tools&rdquo;</li>
+	<li>		Look for an option labelled &ldquo;Instant Payment Notification&rdquo;. Click on the update button for that option.</li>
+	<li>		Click &ldquo;Choose IPN Settings&rdquo;</li>
+	<li>		Enter the URL of your website like <u><strong>https://example.com/payment/ipn?payment_method=paypal</strong></u> and hit &ldquo;Save&rdquo;. Make sure to replace <u><strong>https://example.com</strong></u> with your actual website address.</li>
+</ul>
+<hr>
+<h4 id="payment_methods_stripe_setup">Stripe Setup</h4>
+<p>	To enable Stripe as a payment method, you need to navigate to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; Stripe Settings from there enable Stripe and add your&nbsp;Stripe account Secret and Publishable keys. You can get these keys from your&nbsp;<a href="https://dashboard.stripe.com/account/apikeys" target="_blank">account settings</a>.</p>
+<hr>
+<h4 id="payment_methods_payza_setup">Payza Setup</h4>
+<p>	To enable Payza as a payment method, you need to navigate to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; Payza Settings from there enable Payza&nbsp;and&nbsp;add your Payza merchant email address you wish to receive payments on as you can see in the below image</p>
+<p>	<img alt="" src="assets/images/image_14.png" style="width: 605px; height: 191px; border-width: 1px; border-style: solid;"></p>
+<div class="alert alert-info">
+	You must submit your website for review at Payza website by doing the following:
+	<ul>		<li>			In your Payza account, click &quot;Business&quot; in the left side menu, then select &ldquo;Websites&rdquo;.</li>
+		<li>			Enter your website URL, complete the questionnaire and click &quot;Next&quot;.</li>
+	</ul>
+	Your website review status will be &ldquo;Awaiting Approval&rdquo; until Payza complete their review (up to 3 business days). for more information click <a href="https://payza.readme.io/v1.0/docs/website-review" target="_blank">here</a>.</div>
+<hr>
+<h4 id="payment_methods_skrill_setup">Skrill Setup</h4>
+<p>	To enable Skrill as a payment method, you need to navigate to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; Skrill Settings from there enable Skrill&nbsp;and&nbsp;add your Skrill merchant email address you wish to receive payments on and add Skrill Secret&nbsp;Word. In order to setup your secret word do the following:</p>
+<ol>
+	<li>		Go to the Settings &gt; Developer Settings section of your Skrill account.</li>
+	<li>		In the Secret Word field, enter your secret word. The following restrictions apply:
+		<ul>			<li>				All characters must be in lowercase</li>
+			<li>				The length should not exceed 10 characters</li>
+			<li>				Special characters are not permitted (e.g. @, %, $, etc.)</li>
+			<li>				If you insert any uppercase symbols, they will automatically be converted to lowercase.</li>
+		</ul>
+	</li>
+	<li>		To apply your changes, click Save.</li>
+</ol>
+<hr>
+<h4 id="payment_methods_coinpayments_setup">CoinPayments Setup</h4>
+<p>	To enable CoinPayments as a payment method,</p>
+<ol>
+	<li>		Go to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; CoinPayments Settings from there <strong>enable CoinPayments</strong></li>
+	<li>		Add your <strong>Public</strong> and <strong>Private</strong> Keys by doing the following:
+		<ul>			<li>				Login To your CoinPayments account</li>
+			<li>				Go to Account &gt; API Keys</li>
+			<li>				Click on &quot;Generate new key&quot; button</li>
+			<li>				You will get Public Key and Private Key</li>
+		</ul>
+	</li>
+	<li>		Add your <strong>merchant id </strong>and to get it navigate to Account &gt;&nbsp;Account Settings &gt; Basic Settings from there you will find the merchant Id.</li>
+	<li>		Add your IPN Secret. you need to setup it first at your account by doing the following
+		<ol>
+			<li>				Go to Account &gt;&nbsp;Account Settings &gt;&nbsp;Merchant Settings</li>
+			<li>				In the IPN Secret field, enter a good random string nobody can guess.</li>
+			<li>				In the&nbsp;IPN Verification Method select &quot;HMAC&quot;</li>
+			<li>				Click on &quot;Update Account&quot; button</li>
+		</ol>
+	</li>
+</ol>
+<hr>
+<h4 id="payment_methods_coinbase_settings">Coinbase Settings</h4>
+<p>	To enable Coinbase as a payment method, do the following:</p>
+<ol>
+	<li>		Go to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; Coinbase Settings from there&nbsp;<strong>enable Coinbase</strong></li>
+	<li>		Add your Coinbase API Key and API Secret Key. to get them do the following:
+		<ul>			<li>				Go to https://www.coinbase.com/settings/api and select &quot;<strong>+ New API key</strong>&quot;.</li>
+			<li>				You will then see the API key creation dialogue. Under the &quot;API v2 permissions&quot; select all permissions.</li>
+			<li>				You will get both API Key and API Secret</li>
+		</ul>
+	</li>
+	<li>		After that make sure to&nbsp;complete your Merchant Profile from here https://www.coinbase.com/merchant_profiles</li>
+</ol>
+<hr>
+<h4 id="payment_methods_webmoney_settings">WebMoney Settings</h4>
+<p>	To enable WebMoney as a payment method, do the following:</p>
+<ol>
+	<li>		Go to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; WebMoney Settings from there&nbsp;<strong>enable WebMoney</strong></li>
+	<li>		Enter your merchant purse, by doing the following:
+		<ul>			<li>				Go to https://merchant.wmtransfer.com/conf/purses.asp and you will find your purse id</li>
+			<li>				Click on &quot;Change&quot; link</li>
+			<li>				&nbsp;Tick on &quot;Let to use URL sent in form&quot; and &quot;Send notification to keeper in case of payment error&quot; as you see in the following image</li>
+			<li>				<img alt="" src="assets/images/image_9.png" style="width: 500px; height: 359px; border-width: 1px; border-style: solid;"></li>
+			<li>				Click on &quot;Save&quot; button</li>
+		</ul>
+	</li>
+</ol>
+<hr>
+<h4 id="payment_methods_perfect_money_settings">Perfect Money Settings</h4>
+<p>	To enable Perfect Money as a payment method, do the following:</p>
+<ol>
+	<li>		Go to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; Perfect Money Settings from there&nbsp;<strong>enable&nbsp;Perfect Money</strong></li>
+	<li>		Add your payee account id by doing the following:
+		<ul>			<li>				Login to your account at Perfect Money</li>
+			<li>				Under &quot;My Accounts&quot; you will see your Payee account id</li>
+		</ul>
+	</li>
+	<li>		Add your Perfect Money Alternate Passphrase by doing the following:
+		<ol>
+			<li>				Go to Settings</li>
+			<li>				In the Alternate Passphrase field, click on &quot;Generate&quot; button</li>
+			<li>				Click on &quot;Apply changes&quot;</li>
+		</ol>
+	</li>
+</ol>
+<hr>
+<h4 id="payment_methods_payeer_settings">Payeer Settings</h4>
+<p>	To enable Payeer as a payment method, do the following:</p>
+<ol>
+	<li>		Go to Admin Area &gt;&gt; Settings &gt;&gt; Payment &gt;&gt; Payeer Settings from there&nbsp;<strong>enable&nbsp;Payeer</strong></li>
+	<li>		To add your Merchant ID, Secret Key and Encryption Key do the following:
+		<ul>			<li>				Login to your Payeer account</li>
+			<li>				Click on &quot;Dashboard&quot; from the left side menu</li>
+			<li>				Click on &quot;Merchant Settings&quot;</li>
+			<li>				Click on &quot;Add Merchant&quot;</li>
+			<li>				You will see a form and the first field is &quot;ID&quot; which is your merchant id, add a secret key, encryption key and for&nbsp;Success URL, Fail URL, Status URL add your website address</li>
+		</ul>
+	</li>
+</ol>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="withdraws">
+	<div class="page-header"><h3>Withdraws</h3><hr class="notop"></div>
+<h4 id="withdraws_manage_withdraws">Manage Withdraws</h4>
+<p>	You can manage&nbsp;withdraws by navigating to Admin area -&gt;&nbsp;Withdraws from there you will be able to see all&nbsp;withdraws and you will be able to approve and complete withdraws as you can see on the below image</p>
+<p>	<img alt="" src="assets/images/image_7.png" style="width: 500px; height: 201px; border-width: 1px; border-style: solid;"></p>
+<hr>
+<h4 id="withdraws_withdraw_review">Withdraw Review</h4>
+<p>	To review withdraw IPs, countries, referrers,..., click on withdraw ID or &quot;View&quot; button then you will get all withdraw details as you see below</p>
+<p>	<a href="assets/images/image_15.png" target="_blank"><img alt="" src="assets/images/image_15.png" style="width: 200px; height: 662px; border-width: 1px; border-style: solid;"></a></p>
+</section>
+<section id="captcha">
+	<div class="page-header"><h3>CAPTCHA</h3><hr class="notop"></div>
+<p>	AdLinkFly supports three types of Captcha&nbsp;reCAPTCHA, Invisible reCAPTCHA &amp; Solve Media.</p>
+<p>	To enable captcha go to Admin Area &gt;&gt; Settings &gt;&gt; Captcha from there enable captcha and select the captcha type you want.</p>
+<hr>
+<h4 id="captcha_get_nbsprecaptcha_and_invisible_recaptcha_keys">Get&nbsp;reCAPTCHA and Invisible reCAPTCHA Keys</h4>
+<p>	To get&nbsp;reCAPTCHA and&nbsp;&nbsp;Invisible reCAPTCHA site and secret keys do the following:</p>
+<ol>
+	<li>		Login to your Google account</li>
+	<li>		Go to&nbsp;https://www.google.com/recaptcha/admin#list and generate your keys</li>
+	<li>		Make sure to add all domains you are using into your website in &quot;Domains&quot; field.</li>
+</ol>
+<hr>
+<h4 id="captcha_get_solvemedia_keys">Get SolveMedia Keys</h4>
+<ol>
+	<li>		Login to your account&nbsp;https://portal.solvemedia.com/portal/login</li>
+	<li>		Go to Configure &gt; Sites</li>
+	<li>		Click on &quot;New Site&quot; button</li>
+	<li>		Add website description and add your website address(Leave it empty if you are having multi-domains) then select the interesting categories</li>
+	<li>		Click on &quot;Submit&quot; Button</li>
+	<li>		After that, click on &quot;Keys&quot; button and you will find all required&nbsp;keys</li>
+</ol>
+<hr>
+<h4 id="captcha_get_coinhive_keys">Get Coinhive Keys</h4>
+<ol>
+	<li>		Login to you account&nbsp;https://coinhive.com/account/login</li>
+	<li>		Go to Settings &gt; Sites &amp; API Keys</li>
+	<li>		From there you can see your &quot;Site Key (public)&quot; and &quot;Secret Key (private)&quot;</li>
+</ol>
+</section>
+<section id="social_login_setup">
+	<div class="page-header"><h3>Social Login Setup</h3><hr class="notop"></div>
+<p>
+	&nbsp;</p>
+<h4 id="social_login_setup_social_login_with_facebook">Social login with Facebook</h4>
+<ul>
+	<li>
+		Go to&nbsp;<a href="https://developers.facebook.com/" rel="noreferrer">https://developers.facebook.com/</a>&nbsp;and click on &quot;Add a New App&quot; button</li>
+	<li>
+		Add your &quot;Display Name&quot;, &quot;Contact Email&quot; and &quot;Category&quot; then click on &quot;Create App ID&quot;.</li>
+	<li>
+		Click on &quot;Settings&quot; menu item from the left side.</li>
+	<li>
+		In the Basic settings, click the Add Platform button below the settings configuration.</li>
+	<li>
+		Select Website in the platform dialog.</li>
+	<li>
+		Enter your website URL</li>
+	<li>
+		In the App Domains text input, add your domain that matches the one in the URL.</li>
+	<li>
+		Save your settings.</li>
+	<li>
+		On the left-hand side, click &quot;+Add Product&quot; and select &quot;Facebook Login&quot;</li>
+	<li>
+		On the left-hand side, click on &quot;Facebook Login&quot; under &quot;Product Settings&quot;</li>
+	<li>
+		Add&nbsp;<a href="https://website.com/social-auth/callback/facebook/">https://website.com/social-auth/callback/facebook/</a>&nbsp;for &quot;Valid OAuth redirect URIs&quot; then Click on &quot;Save Settings&quot;</li>
+	<li>
+		Click on &quot;App Review&quot; menu item from the left side.</li>
+	<li>
+		Set &quot;Make App public?&quot; to &quot;Yes&quot;</li>
+	<li>
+		Click on &quot;Settings&quot; menu item from the left side, from there you will get your &quot;App ID&quot; and &quot;App Secret&quot;</li>
+	<li>
+		That&#39;s it.</li>
+</ul>
+<h4 id="social_login_setup_social_login_with_twitter">Social login with Twitter</h4>
+<p>
+	<span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13px;">- Go to&nbsp;</span><a href="https://apps.twitter.com/" rel="noreferrer" style="font-family: inherit; font-size: 13px; background: transparent; margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; border: 0px; color: rgb(0, 102, 204); text-decoration-line: none;">https://apps.twitter.com/</a><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13px;">&nbsp;and click on &quot;Create New App&quot;.</span></p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Fill out any required fields such as the application name, description, website and accept the terms.</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Click on &quot;Create Your App&quot;.</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Click on the second tab &quot;Settings&quot;</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Add &quot;Callback URL&quot; like this&nbsp;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">http://<u style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">yourdomain.com</u>/social-auth/callback/twitter/</strong>&nbsp;and make sure to replace &quot;yourdomain.com&quot; with your actual domain.</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Add your &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Privacy Policy URL</strong>&quot; and &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Terms of Service URL</strong>&quot;</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Scroll down and click on &quot;Update Settings&quot; button</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Click on the last tab &quot;Permissions&quot;</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Select &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Read Only</strong>&quot; for &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Access</strong>&quot; then scroll down under &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Additional Permissions</strong>&quot; and select &nbsp;<span style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; background-color: transparent; text-align: initial;">&quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Request email addresses from users</strong>&quot;</span></p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Scroll down and click on &quot;Update Settings&quot; button</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- Click on the last tab &quot;Keys and Access Tokens&quot;</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- From there you can get your &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Consumer Key (API Key)</strong>&quot; and &quot;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">Consumer Secret (API Secret)</strong>&quot;</p>
+<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+	- That&#39;s it.</p>
+<h4 id="social_login_setup_social_login_with_google">Social Login with Google</h4>
+<div>
+	&nbsp;</div>
+<div>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Go to&nbsp;<a href="https://code.google.com/apis/console/" rel="noreferrer" style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px; background: transparent; color: rgb(0, 102, 204); text-decoration-line: none;">https://code.google.com/apis/console/</a>&nbsp;and create a new project.</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Add your Project name.</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Click on &quot;Credentials&quot; from the left side menu then click on &quot;OAuth consent screen&quot; tab.</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Fill &quot;Product name shown to users&quot;, &quot;Privacy policy URL&quot; and &quot;Terms of service URL&quot; fields</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Click on &quot;Save&quot; button after that you will be redirect to another page.</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Select &quot;Web Application&quot; under &quot;Application type&quot;</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Scroll down and fill &quot;Authorized redirect URIs&quot; with&nbsp;<strong style="margin: 0px; padding: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">http://<u style="margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; border: 0px;">yourdomain.com</u>/social-auth/callback/google/</strong>&nbsp;and make sure to replace &quot;yourdomain.com&quot; with your actual domain.</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Click on &quot;Create&quot; button</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Then you will get your &quot;Client ID&quot; and &quot;Client Secret&quot;</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Click on &quot;Library&quot; from the left side menu then search for &quot;Google+ API&quot; and click on it.</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- Beside &quot;Google+ API&quot; click on &quot;ENABLE&quot;</p>
+	<p style="margin: 0px; padding: 0px; outline: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51);">
+		- That&#39;s it.</p>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="translating_to_your_language">
+	<div class="page-header"><h3>Translating to your language</h3><hr class="notop"></div>
+<div>
+	We&rsquo;ve built AdLinkFly to be translation ready so you can translate into any language. The process of translating the theme is a user responsibility. The following instructions are given only for guidance.</div>
+<div>
+	<ul>
+		<li>
+			Download and install <a href="https://poedit.net/dl/Poedit-1.8.13-setup.exe" target="_blank">POEDIT</a></li>
+		<li>
+			Connect to your site via FTP and open src/Locale folder&nbsp;</li>
+		<li>
+			Download en_US folder and rename it to your language, For example, if you&rsquo;re translating Chinese for China, the folder should be named zh_CH, and for a Tagalog translation for the Philippines would be tl_PH&nbsp;</li>
+		<li>
+			Open that folder then open default.po file and open it with POEDIT.&nbsp;</li>
+		<li>
+			Translate file and save it.&nbsp;</li>
+		<li>
+			Two files will be generated after saving default.po and default.mo&nbsp;</li>
+		<li>
+			Upload the entire folder to src/Locale folder&nbsp;</li>
+		<li>
+			Navigate to Settings -&gt; General and select your new language&nbsp;</li>
+		<li>
+			Click on &quot;Save&quot; button</li>
+	</ul>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="faq">
+	<div class="page-header"><h3>FAQ</h3><hr class="notop"></div>
+<h3>
+	<u>Installation FAQ</u></h3>
+<div>
+	<h4 id="faq_after_uploading_files_i_got_404_error_install_index_is_not_found,_how_can_i_fix_this_issue">After uploading files I got 404 error /install/index is not found, How can I fix this issue?</h4>
+	<div>
+		You are getting 404 error because you didn&#39;t upload the .htaccess in script root folder so to fix this issue there is a file called htaccess.txt located att script root rename it to .htaccess after that you should see the installation wizard.</div>
+	<div>
+		<hr>
+		<h4 id="faq_1and1_ndash_500_internal_server_error">1and1 &ndash; 500 Internal Server Error</h4>
+	</div>
+	<div>
+		Some web hosts URLs are not directly related to physical file paths so you need to edit the below list of files</div>
+	<ul>
+		<li>
+			/.htaccess</li>
+		<li>
+			/webroot/.htaccess</li>
+	</ul>
+	<div>
+		and add the below line of code</div>
+	<pre class="prettyprint lang-plain linenums">
+Rewrite​​Base /</pre>
+	<div>
+		after this line</div>
+	<pre class="prettyprint lang-plain linenums">
+RewriteEngine on​​</pre>
+	<h3>
+		<u>Activation FAQ</u></h3>
+	<h4 id="faq_i_39m_getting_a_nbspred_triangle_error_with_no_words_when_activating_my_nbspwebsite_license">I&#39;m getting a&nbsp;red triangle error with no words when activating my&nbsp;website license</h4>
+	<div>
+		You need to edit your personal token at Envato and make sure to select &quot;View your purchases of the app creator&#39;s items&quot; then the activation will work well.</div>
+	<div>
+		<hr>
+		<h3>
+			<u>Campaigns FAQ</u></h3>
+	</div>
+</div>
+<h4 id="faq_how_can_i_earn">How can I earn?</h4>
+<ul>
+	<li>
+		Your advertisers are able to create campaigns and will pay you then publishers will short links then both of you and publishers will earn money.</li>
+	<li>
+		If you don&rsquo;t have advertisers, our script allows admin to create campaigns and you can use third-party ads to be displayed on your websites like
+		<ul>
+			<li>
+				https://www.adcash.com/</li>
+			<li>
+				https://a-ads.com/</li>
+			<li>
+				http://www.clicksor.com/</li>
+			<li>
+				http://www.bidvertiser.com/</li>
+			<li>
+				http://popmyads.com/</li>
+			<li>
+				https://propellerads.com/</li>
+			<li>
+				https://www.popads.net</li>
+			<li>
+				or any advertising companies.</li>
+		</ul>
+	</li>
+</ul>
+<hr>
+<h4 id="faq_publishers_have_zero_views_and_earnings,_what_i_do">Publishers have zero views and earnings, what I do?</h4>
+<p>
+	Make sure to add Non-default campaigns then views and earnings will start counting as you can see in the following image</p>
+<p>
+	<img alt="" src="assets/images/image_19.png" style="width: 629px; height: 320px; border-width: 1px; border-style: solid;"></p>
+<hr>
+<h4 id="faq_why_is_the_interstitial_ad_page_blank">Why is the interstitial ad page blank?</h4>
+<div>
+	The website URL used when creating the interstitial campaign let say http://example.com has a header called &quot;X-Frame-Options&quot; and set to &quot;SAMEORIGIN&quot; which means that this website in not allowed to be displayed within iframe or interstitial ads. This is not a script issue but this is how this website configured to work also you can test this website with the most popular website adf.ly as you can see here http://adf.ly/ad/preview?url=http://example.com/ and it is displaying a blank page.</div>
+<div>
+	&nbsp;</div>
+<div>
+	To fix this issue ask the web hosting that host this website to remove this header &quot;X-Frame-Options&quot;.</div>
+<hr>
+<h4 id="faq_how_can_i_change_the_cpm">How can I change the CPM?</h4>
+<div>
+	CPM is automatically calculated based on member earnings divided by the total number of views then multiply the result by 1000 so to change it you will need to pause the old campaigns and create new campaigns(in order to get new ads prices) then start sharing the links after that the CPM will start counting with the new value.</div>
+<hr>
+<h4 id="faq_how_to_disable_advertising_or_campaigns">How to disable advertising or campaigns?</h4>
+<div>
+	You can disable advertising/campaigns by Navigating to <u><strong>Admin Area &gt;&gt; Settings &gt;&gt; Earnings &gt;&gt; Enable Advertising</strong></u> and set it to &quot;No&quot;</div>
+<div>
+	<hr>
+	<h3>
+		<u>General FAQ</u></h3>
+</div>
+<h4 id="faq_i_39m_getting_forbidden_error_when_saving_admin_settings">I&#39;m getting Forbidden error when saving admin settings</h4>
+<div>
+	Settings are not saving usually because an Apache module called Mod Security. Almost all web host providers have this enabled on their servers to protect their users. However, some web hosts are using strict rules which lead to prevent some forms from saving. You can contact your web host to whitelist your domain from using these rules or disable Mod Security into your domain.</div>
+<div>
+	<hr>
+	<h4 id="faq_how_can_i_change_quotadlinkfly_quot_word_from_full_page_script">How can I change &quot;adlinkfly_&quot; word from full page script?</h4>
+</div>
+<div>
+	<div>
+		To change &quot;adlinkfly_&quot; you need to search and replace &quot;adlinkfly_&quot; with your &quot;domain_&quot; into the following two files</div>
+	<ul>
+		<li>
+			/src/Template/Member/Tools/full.ctp</li>
+		<li>
+			/webroot/js/full-page-script.js</li>
+	</ul>
+	<div>
+		make sure that &quot;domain_&quot; starts with a letter and only contain letters and number and ending with an underscore.</div>
+	<hr>
+	<h4 id="faq_how_can_i_create_a_new_theme">How can I create a new theme?</h4>
+	<div>
+		Let say you need to make customizations into CloudTheme then just copy this folder /plugins/CloudTheme to /plugins/CustomTheme where &quot;CustomTheme&quot; is your new theme name then go to Admin Area &gt;&gt; Settings &gt;&gt; General &gt;&gt; Select Theme and select your new theme from there, Then edit your new theme files which will not lost when a new update released.
+		<hr>
+		<h4 id="faq_what_is_ufront_head_code_u,_uauth_head_code_u,_umember_head_code_u,_uadmin_head_code_u,_ufooter_code_u_and_uafter_body_tag_code_u">What is <u>Front Head code</u>, <u>Auth head code</u>, <u>Member head code</u>, <u>Admin head code</u>, <u>Footer Code</u> and <u>After Body Tag Code</u>?</h4>
+	</div>
+	<div>
+		<div>
+			Front head code &gt;&gt; This is used to add CSS, Javascript code into front pages like home page, captcha page, banner page, interstitial page.</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			Auth head code &gt;&gt; This is used to add CSS, Javascript code into access pages like login, register, forgot password.</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			Member head code &gt;&gt; This is used to add CSS, Javascript code into all member area pages.</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<p>
+				Admin head code &gt;&gt; This is used to add CSS, Javascript code into all admin area pages.</p>
+			<hr>
+			<h4 id="faq_how_can_i_add_a_customcss_file">How can I add a custom.css file?</h4>
+			<div>
+				You can add your CSS file to override any styles by uploading a file called <u>custom.css</u> into <u>/webroot/css/</u> folder then add the below code into <u>Admin Area &gt;&gt; Settings &gt;&gt; Integration &gt;&gt; Front Head Code/Auth Head Code/Member Head Code</u></div>
+			<pre class="prettyprint lang-html linenums">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;//website.com/css/custom.css&quot;/&gt;</pre>
+			<div>
+				After doing that you, this file will be available on all website pages.</div>
+			<hr>
+			<h4 id="faq_how_can_i_change_the_header_background_image">How can I change the header background image?</h4>
+		</div>
+	</div>
+</div>
+<div>
+	<div>
+		You can change the header background by adding the below code into Admin Area &gt;&gt; Settings &gt;&gt; Integration &gt;&gt; Front Head Code</div>
+	<pre class="prettyprint lang-html linenums">
+&lt;style&gt;
+header, .captcha-page #mainNav, .interstitial-page #mainNav, .banner-page #mainNav {
+    background-image: url(&quot;<strong>Your Image URL</strong>&quot;);
+}
+&lt;/style&gt;</pre>
+	<div>
+		Make sure to replace &quot;<strong>Your Image URL</strong>&quot; with the new image URL.</div>
+	<hr>
+	<h4 id="faq_how_can_i_add_remove_menu_items_from_the_top_and_bottom_menus">How can I add/remove menu items from the top and bottom menus?</h4>
+	<div>
+		You can add or remove menu items from the <strong>top menu</strong> by editing the following files:</div>
+	<ul>
+		<li>
+			<strong>Classic Theme</strong>:&nbsp;/src/Template/Layout/front.ctp</li>
+		<li>
+			<strong>Modern Theme</strong>:&nbsp;/plugins/ModernTheme/src/Template/Layout/front.ctp</li>
+		<li>
+			<strong>Cloud Theme</strong>:&nbsp;/plugins/CloudTheme/src/Template/Layout/front.ctp</li>
+	</ul>
+	<p>
+		and for the <strong>bottom menu</strong> editing the following files:</p>
+	<ul>
+		<li>
+			<strong>Classic Theme</strong>:&nbsp;/src/Template/Layout/front.ctp</li>
+		<li>
+			<strong>Modern Theme</strong>:&nbsp;/plugins/ModernTheme/src/Template/Element/front_footer.ctp</li>
+		<li>
+			<strong>Cloud Theme</strong>:&nbsp;/plugins/CloudTheme/src/Template/Element/front_footer.ctp</li>
+	</ul>
+</div>
+<hr>
+<h4 id="faq_short_links_are_generated_with_http_not_httpustrongs_strong_u_although_i_have_an_ssl_installed">Short links are generated with HTTP not HTTP<u><strong>S</strong></u> although I have an SSL installed</h4>
+<div>
+	Short links pages are with http(without s) to make sure that all banner and interstitial ads are displayed and not blocked because if a page with https has a banner with a http(without s) image that image will be blocked. This is how https protocol is working. Also, this is how the most popular website adf.ly is working as you can see in the below image.</div>
+<div>
+	<img alt="" src="assets/images/image_18.png" style="width: 578px; height: 262px; border-width: 1px; border-style: solid;"></div>
+<hr>
+<h4 id="faq_how_can_i_change_the_home_page_content">How can I change the home page content?</h4>
+<div>
+	You can change the home page content by editing the following file</div>
+<ul>
+	<li>
+		For Classic Theme:&nbsp;/src/Template/Pages/home.ctp</li>
+	<li>
+		For Modern Theme:&nbsp;/plugins/ModernTheme/src/Template/Pages/home.ctp</li>
+	<li>
+		For Cloud Theme:&nbsp;/plugins/CloudTheme/src/Template/Pages/home.ctp</li>
+</ul>
+<hr>
+<h4 id="faq_why_prices_are_not_changing_in_front_end">Why prices are not changing in front end?</h4>
+<div>
+	<div>
+		When setting price for a country, for example, US, you should add the price for that country in all traffic sources</div>
+	<ul>
+		<li>
+			Desktop, Mobile and Tablet</li>
+		<li>
+			Desktop Only</li>
+		<li>
+			Mobile / Tablet Only</li>
+	</ul>
+	<hr>
+	<h4 id="faq_how_can_i_add_referral_banners">How can I add referral banners?</h4>
+	<p>
+		You can referral banners code by navigating to Admin Area &gt; Settings &gt; Earnings &gt;&nbsp;Referral Banners Code. You can use the below code as an example and make sure to replace the demo images with your actual images</p>
+	<pre class="prettyprint lang-html linenums">
+&lt;h3&gt;Referral Banners&lt;/h3&gt;
+
+&lt;!-- Nav tabs --&gt;
+&lt;ul class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;
+    &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#banner-728x90&quot; aria-controls=&quot;banner-728x90&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;728x90&lt;/a&gt;&lt;/li&gt;
+    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#banner-468x60&quot; aria-controls=&quot;profile&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;468x60&lt;/a&gt;&lt;/li&gt;
+    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#banner-300x250&quot; aria-controls=&quot;messages&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;300x250&lt;/a&gt;&lt;/li&gt;
+    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#banner-250x250&quot; aria-controls=&quot;settings&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;250x250&lt;/a&gt;&lt;/li&gt;
+    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#banner-160x600&quot; aria-controls=&quot;settings&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;160x600&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Tab panes --&gt;
+&lt;div class=&quot;tab-content&quot;&gt;
+
+    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane text-center active&quot; id=&quot;banner-728x90&quot;&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/728x90&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;textarea class=&quot;form-control&quot; rows=&quot;4&quot; readonly&gt;
+&lt;!-- Start of banner code --&gt;
+&lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/728x90&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+&lt;!-- End of banner code --&gt;
+        &lt;/textarea&gt;
+    &lt;/div&gt;
+
+    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane text-center&quot; id=&quot;banner-468x60&quot;&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/468x60&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+        &lt;textarea class=&quot;form-control&quot; rows=&quot;4&quot; readonly&gt;
+&lt;!-- Start of banner code --&gt;
+&lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/468x60&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+&lt;!-- End of banner code --&gt;
+        &lt;/textarea&gt;
+    &lt;/div&gt;
+
+    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane text-center&quot; id=&quot;banner-300x250&quot;&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/300x250&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+        &lt;textarea class=&quot;form-control&quot; rows=&quot;4&quot; readonly&gt;
+&lt;!-- Start of banner code --&gt;
+&lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/300x250&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+&lt;!-- End of banner code --&gt;
+        &lt;/textarea&gt;
+    &lt;/div&gt;
+
+    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane text-center&quot; id=&quot;banner-250x250&quot;&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/250x250&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+        &lt;textarea class=&quot;form-control&quot; rows=&quot;4&quot; readonly&gt;
+&lt;!-- Start of banner code --&gt;
+&lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/250x250&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+&lt;!-- End of banner code --&gt;
+        &lt;/textarea&gt;
+    &lt;/div&gt;
+
+    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane text-center&quot; id=&quot;banner-160x600&quot;&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;a href=&quot;[referral_link]&quot;&gt;&lt;img src=&quot;//placehold.it/160x600&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+        &lt;textarea class=&quot;form-control&quot; rows=&quot;4&quot; readonly&gt;
+&lt;!-- Start of banner code --&gt;
+&lt;a href=&quot;[referral_link]&gt;&lt;img src=&quot;//placehold.it/160x600&quot; title=&quot;Make short links and earn the biggest money&quot; /&gt;&lt;/a&gt;
+&lt;!-- End of banner code --&gt;
+        &lt;/textarea&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+	<hr>
+	<h4 id="faq_what_is_the_nbspdifference_between_quotmighty_url_shortener_quot_amp_quotadlinkfly_quot">What is the&nbsp;difference between &quot;Mighty URL Shortener&quot; &amp; &quot;AdLinkFly&quot;?</h4>
+</div>
+<ul>
+	<li>
+		&rdquo;Mighty URL Shortener&rdquo; script is focused on URL shorting and it works like bit.ly but with more advanced reports &amp; analytics by continents, countries, states, cities, device type, device brand &amp; device name. Also, member plans.</li>
+	<li>
+		&ldquo;AdLinkFly&rdquo; script is focused on monetizing URL shortener which is working like adf.ly and ouo.io with features like publisher and advertisers areas, referrals system, campaigns, withdraw system, different ads types like Interstitial and banner and more...</li>
+</ul>
+<div>
+	&nbsp;</div>
+</section>
+<section id="need_hosting">
+	<div class="page-header"><h3>Need Hosting</h3><hr class="notop"></div>
+<h4 id="need_hosting_shared_hosting">Shared Hosting</h4>
+<ul>
+	<li>
+		<a href="http://www.a2hosting.com/?aid=5abe6a55d1400">A2 Hosting</a></li>
+	<li>
+		<a href="http://hostg.co/13768">Hostinger</a></li>
+	<li>
+		<a href="https://my.hawkhost.com/aff.php?aff=8223" target="_blank">HawkHost</a></li>
+	<li>
+		<a href="https://manage.banahosting.com/aff.php?aff=3699">BanaHosting</a></li>
+	<li>
+		<a href="https://www.godaddy.com/" target="_blank">GoDaddy</a></li>
+	<li>
+		<a href="https://affiliate.namecheap.com/?affId=7311" target="_blank">NameCheap</a></li>
+	<li>
+		&nbsp;</li>
+</ul>
+<h4 id="need_hosting_vps_hosting">VPS Hosting</h4>
+<ul>
+	<li>
+		<a href="https://www.knownhost.com/">KnownHost</a></li>
+</ul>
+<div class="alert alert-info">
+	<ul>
+		<li>
+			All contact should be done directly with your selected Host.</li>
+		<li>
+			We are not responsible for any data loss or damage that may be experienced when signing up with a recommended Host.</li>
+		<li>
+			We may receive a commission for referring you to some of these hosts.</li>
+	</ul>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>
